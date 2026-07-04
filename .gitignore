@@ -6,3 +6,4 @@ Thumbs.db
 .env
 config.js
 .vite/
+.claude/scheduled_tasks.lock
