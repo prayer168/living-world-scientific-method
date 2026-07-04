@@ -1,0 +1,15 @@
+{
+  "name": "living-world-scientific-method",
+  "version": "1.0.0",
+  "description": "生命世界與科學方法:生物入門 — 國中七年級自然科學互動教材",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

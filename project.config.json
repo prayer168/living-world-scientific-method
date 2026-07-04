@@ -1,0 +1,21 @@
+{
+  "titleZh": "生命世界與科學方法:生物入門",
+  "projectName": "living-world-scientific-method",
+  "repo": "living-world-scientific-method",
+  "githubUser": "prayer168",
+  "pagesUrl": "https://prayer168.github.io/living-world-scientific-method/",
+  "level": "國中",
+  "grade": "七年級",
+  "subject": "自然科學（生物）",
+  "duration": "40分鐘",
+  "version": "1.0.0",
+  "pages": [
+    { "page": "home", "file": "index.html", "title": "學習任務" },
+    { "page": "inquiry", "file": "inquiry.html", "title": "探究歷程" },
+    { "page": "microscope", "file": "microscope.html", "title": "顯微鏡觀察" },
+    { "page": "experiment", "file": "experiment.html", "title": "實驗與變因" },
+    { "page": "apply", "file": "apply.html", "title": "生活應用" },
+    { "page": "quiz", "file": "quiz.html", "title": "闖關挑戰" },
+    { "page": "resources", "file": "resources.html", "title": "自主學習" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "resources": [
+    {
+      "title": "科學online — 國立臺灣大學科學教育發展中心",
+      "url": "https://highscope.ch.ntu.edu.tw/wordpress/",
+      "type": "科普文章",
+      "grade": "國中",
+      "description": "由臺大團隊經營的科普平台，有大量生物、探究與實驗相關文章，可延伸閱讀科學方法的實例。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "國立自然科學博物館 數位典藏與線上展示",
+      "url": "https://www.nmns.edu.tw/",
+      "type": "博物館資源",
+      "grade": "國中小",
+      "description": "科博館提供生物標本、生態與科學主題的展示與教育資源，適合延伸觀察與探究學習。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "PhET 互動式科學模擬（含中文）",
+      "url": "https://phet.colorado.edu/zh_TW/",
+      "type": "互動模擬",
+      "grade": "國中",
+      "description": "科羅拉多大學開發的免費模擬平台，可操作變因、觀察結果，體會控制變因與資料判讀。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "教育部因材網 — 自然領域",
+      "url": "https://adl.edu.tw/",
+      "type": "官方學習平台",
+      "grade": "國中小",
+      "description": "教育部官方適性學習平台，涵蓋自然科探究與實作單元，可自我檢測學習成效。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "均一教育平台 — 國中生物",
+      "url": "https://www.junyiacademy.org/",
+      "type": "影音課程",
+      "grade": "國中",
+      "description": "免費影音與練習題，涵蓋生物入門、細胞與顯微鏡觀察等主題，適合自主複習。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "公視 我們的島 / 科學節目",
+      "url": "https://ourisland.pts.org.tw/",
+      "type": "公共媒體",
+      "grade": "國中",
+      "description": "公共電視的環境與科學紀實內容，示範真實情境中的觀察、調查與資料呈現。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "國立臺灣科學教育館 線上資源",
+      "url": "https://www.ntsec.gov.tw/",
+      "type": "科教館資源",
+      "grade": "國中小",
+      "description": "科教館提供科展、探究與實作相關資源與活動，適合延伸『設計實驗』的學習。",
+      "checkedAt": "2026-07-04"
+    },
+    {
+      "title": "Cell Size and Scale — 細胞尺度互動（University of Utah）",
+      "url": "https://learn.genetics.utah.edu/content/cells/scale/",
+      "type": "互動模擬",
+      "grade": "國中",
+      "description": "用滑桿從咖啡豆一路縮放到細胞、細菌與分子，直觀感受顯微鏡所觀察的微小尺度。",
+      "checkedAt": "2026-07-04"
+    }
+  ]
+}
