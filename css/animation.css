@@ -1,0 +1,77 @@
+/* 共用動畫規則。所有可動元素在 prefers-reduced-motion 時停止。 */
+
+/* SVG 圖層切換:必須用 attribute [hidden] 控制，element.hidden 對 SVG 無效 */
+.svg-layer[hidden] { display: none !important; }
+
+@keyframes floatUp {
+  0% { transform: translateY(0); opacity: .9; }
+  100% { transform: translateY(-16px); opacity: 0; }
+}
+@keyframes sway {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+@keyframes swim {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(14px); }
+  100% { transform: translateX(0); }
+}
+@keyframes drop {
+  0% { transform: translateY(-40px); opacity: 0; }
+  60% { opacity: 1; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes flick {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(.75); }
+}
+@keyframes grow {
+  0% { transform: scaleY(.15); }
+  100% { transform: scaleY(1); }
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.12); opacity: .8; }
+}
+@keyframes dash {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes wander {
+  0% { transform: translate(0,0); }
+  25% { transform: translate(10px,-6px); }
+  50% { transform: translate(4px,8px); }
+  75% { transform: translate(-8px,2px); }
+  100% { transform: translate(0,0); }
+}
+@keyframes fadePulse {
+  0%, 100% { opacity: .35; }
+  50% { opacity: 1; }
+}
+@keyframes barRise {
+  0% { transform: scaleY(0); }
+  100% { transform: scaleY(1); }
+}
+
+/* SVG 子元素變形要固定原點 */
+.spin-origin { transform-box: fill-box; transform-origin: center; }
+
+/* 生活應用/圖示常用類別 */
+.anim-bubble { transform-box: fill-box; transform-origin: center; animation: floatUp 2.6s ease-in infinite; }
+.anim-sway { transform-box: fill-box; transform-origin: bottom center; animation: sway 3s ease-in-out infinite; }
+.anim-swim { transform-box: fill-box; animation: swim 4s ease-in-out infinite; }
+.anim-drop { transform-box: fill-box; animation: drop 1.8s ease-in infinite; }
+.anim-flick { transform-box: fill-box; transform-origin: bottom center; animation: flick .5s ease-in-out infinite; }
+.anim-grow { transform-box: fill-box; transform-origin: bottom center; animation: grow 3s ease-out infinite alternate; }
+.anim-pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-in-out infinite; }
+.anim-wander { transform-box: fill-box; animation: wander 6s ease-in-out infinite; }
+.anim-fade { animation: fadePulse 2.4s ease-in-out infinite; }
+.anim-bar { transform-box: fill-box; transform-origin: bottom; animation: barRise 1.4s ease-out forwards; }
+
+.flow-line { stroke-dasharray: 6 6; animation: dash 1s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-bubble, .anim-sway, .anim-swim, .anim-drop, .anim-flick,
+  .anim-grow, .anim-pulse, .anim-wander, .anim-fade, .anim-bar, .flow-line {
+    animation: none !important;
+  }
+}

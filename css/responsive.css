@@ -1,0 +1,19 @@
+@media (max-width: 860px) {
+  .stage-view { grid-template-columns: 1fr; }
+  .parts-layout { grid-template-columns: 1fr; }
+  body { font-size: 16px; }
+}
+
+@media (max-width: 560px) {
+  .wrap { padding: 0 14px; }
+  .brand-title { font-size: 1.02rem; }
+  .hero { padding: 18px; }
+  .hero h1 { font-size: 1.35rem; }
+  .page-title { font-size: 1.3rem; }
+  .card { padding: 16px; }
+  .tabnav a { padding: 9px 11px; font-size: .85rem; }
+  .pager { flex-direction: column; }
+  .stageflow { gap: 4px; }
+  .stage-btn { padding: 6px 10px; font-size: .8rem; }
+  .stage-arrow { display: none; }
+}
